@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>spectrum color</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="mt-lg-2 judul">Hello, Color!</h1>
+
+<div class="kotak d-inline-flex">
+    <button id="blackWhite" type="button" class="btn btn-dark   px-3">Black & White</button>
+</div>
+
+
+    <!-- ---------slider------------------------------------>
+    
+    <div class="container d-flex justify-content-evenly">     
+      <div class="box red">
+        <input type="range" name="red" min="1" max="255"/>
+      </div>
+
+      <div class="box green">
+        <input type="range" name="green" min="1" max="255" />
+      </div>
+
+      <div class="box blue">
+        <input type="range" name="blue" min="1" max="255"/>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

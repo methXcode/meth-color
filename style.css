@@ -1,0 +1,57 @@
+body {
+  background: rgb(247, 217, 217);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bgWhite {
+  background-color: #fff !important;
+  color: #000;
+
+}
+
+.kotak {
+
+  margin-top: 50px;
+  height: 75px;
+}
+.cClr {
+  margin-left: 30px;
+  background-image: linear-gradient(red, yellow,blue);
+  border-radius: 10px;
+  height: 70;
+  border:none;
+  padding-left: 15px ;
+  padding-right:15px;
+
+}
+
+.judulBaru {
+  font-weight: 800;
+  font-size: 5em;
+}
+
+/*----------slider-------- */
+.container {
+  width: 780px;
+
+}
+.box {
+  margin-top: 100px;
+  width: 200px;
+  height: 50px;
+  vertical-align: center !important;
+  padding-top: 15px;
+  border-radius:30px;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
